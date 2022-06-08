@@ -30,7 +30,7 @@
 							</ul>
 						</header>
 						<div class="content">
-							<span class="image fill" data-position="center"><img src="alt="></span>
+							<span class="image fill" data-position="center"><img src="{% static 'images/pic01.jpg' %}"></span>
 						</div>
 					</section>
 
@@ -41,7 +41,7 @@
 						</header>
 						<div class="content">
 							<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+							<span class="image main"><img src="{% static 'images/pic02.jpg' %}" alt="" /></span>
 						</div>
 					</section>
 
@@ -79,10 +79,10 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-                                            <a href="images/gallery/fulls/01.jpg" class="landscape"><img src="01.jpg" alt="" /></a>
-                                            <a href="images/gallery/fulls/02.jpg"><img src="02.jpg" alt="" /></a>
-                                            <a href="images/gallery/fulls/03.jpg"><img src="03.jpg" alt="" /></a>
-                                            <a href="images/gallery/fulls/04.jpg" class="landscape"><img src="04.jpg" alt="" /></a>
+                                            <a href="images/gallery/fulls/01.jpg" class="landscape"><img src="{% static 'images/gallery/fulls/01.jpg' %}" alt="" /></a>
+                                            <a href="images/gallery/fulls/02.jpg"><img src="{% static 'images/gallery/fulls/02.jpg' %}" alt="" /></a>
+                                            <a href="images/gallery/fulls/03.jpg"><img src="{% static 'images/gallery/fulls/03.jpg' %}" alt="" /></a>
+                                            <a href="images/gallery/fulls/04.jpg" class="landscape"><img src="{% static 'images/gallery/fulls/04.jpg' %}" alt="" /></a>
                                         </div>
 									</div>
 								</section>
@@ -95,9 +95,9 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="05.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/06.jpg"><img src="06.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/07.jpg"><img src="07.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="{% static 'images/gallery/fulls/05.jpg' %}" alt="" /></a>
+											<a href="images/gallery/fulls/06.jpg"><img src="{% static 'images/gallery/fulls/06.jpg' %}" alt="" /></a>
+											<a href="images/gallery/fulls/07.jpg"><img src="{% static 'images/gallery/fulls/07.jpg' %}" alt="" /></a>
 										</div>
 									</div>
 								</section>
@@ -109,9 +109,9 @@
 										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="08.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="09.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="10.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="{% static 'images/gallery/fulls/08.jpg' %}" alt="" /></a>
+											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="{% static 'images/gallery/fulls/09.jpg' %}" alt="" /></a>
+											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="{% static 'images/gallery/fulls/10.jpg' %}" alt="" /></a>
 										</div>
 									</div>
                                         </header>
@@ -461,12 +461,12 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 			</div>
 
 		<!-- Scripts -->
-			<script src="jquery.min.js"></script>
-			<script src="jquery.scrolly.min.js"></script>
-			<script src="browser.min.js"></script>
-			<script src="breakpoints.min.js"></script>
-			<script src="util.js"></script>
-			<script src="main.js"></script>
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
 
 	</body>
 </html>
